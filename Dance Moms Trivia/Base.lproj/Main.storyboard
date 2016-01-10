@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="P3V-3l-oNx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dance_Moms_Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="d5e93cf079a2ab62db7c1107e17db187" translatesAutoresizingMaskIntoConstraints="NO" id="XnL-tc-1Vt">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8l-As-VJZ">
+                                <rect key="frame" x="176" y="457" width="248" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <state key="normal" title="Start Quiz">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KYX-V2-MUx" kind="show" id="mqi-Im-vW7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81749131944444442" green="0.80595043824827295" blue="0.77007171531154794" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="XnL-tc-1Vt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T3x-jL-8Gt"/>
+                            <constraint firstItem="R8l-As-VJZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZSE-gz-LId"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0jw-MU-A0f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-844" y="-223"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ugE-hL-g13">
+            <objects>
+                <viewController id="KYX-V2-MUx" customClass="SecondViewController" customModule="Dance_Moms_Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cbD-hg-AXf"/>
+                        <viewControllerLayoutGuide type="bottom" id="DvX-fx-UXJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rYy-qt-DKI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HeQ-gk-kw2">
+                                <rect key="frame" x="156" y="255" width="289" height="145"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qym-IP-8zS" customClass="GridLabel" customModule="Dance_Moms_Trivia" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="118" width="281" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSN-bd-U1m" customClass="GridLabel" customModule="Dance_Moms_Trivia" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="49" width="281" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdh-1j-GLN" customClass="GridLabel" customModule="Dance_Moms_Trivia" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="83" width="281" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3G-J9-Qbj" customClass="GridLabel" customModule="Dance_Moms_Trivia" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="20" width="281" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="sSN-bd-U1m" firstAttribute="centerX" secondItem="HeQ-gk-kw2" secondAttribute="centerX" id="0pJ-ip-MwR"/>
+                                    <constraint firstItem="qym-IP-8zS" firstAttribute="centerX" secondItem="HeQ-gk-kw2" secondAttribute="centerX" id="46C-0J-BEB"/>
+                                    <constraint firstItem="f3G-J9-Qbj" firstAttribute="centerX" secondItem="HeQ-gk-kw2" secondAttribute="centerX" id="Rvg-TM-jv3"/>
+                                    <constraint firstItem="jdh-1j-GLN" firstAttribute="centerX" secondItem="HeQ-gk-kw2" secondAttribute="centerX" id="rtO-RP-M7T"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="iaj-id-aHz" appends="YES" id="6lM-Pw-0UW"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8V0-nU-S7j">
+                                <rect key="frame" x="261" y="418" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.040746752990000003" green="0.68887535720000004" blue="0.8237649937" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bij-Bx-JxU">
+                                <rect key="frame" x="221" y="464" width="157" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Next Question">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextQuestion:" destination="KYX-V2-MUx" eventType="touchUpInside" id="pQD-F8-Xu1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSz-P2-hvt">
+                                <rect key="frame" x="221" y="522" width="168" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="See my score!">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="LZ4-zk-ryb" kind="show" id="79o-7Y-V4t"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="25L-qW-lmb">
+                                <rect key="frame" x="158" y="56" width="284" height="127"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.040746752990000003" green="0.68887535720000004" blue="0.8237649937" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HeQ-gk-kw2" firstAttribute="centerX" secondItem="rYy-qt-DKI" secondAttribute="centerX" id="2iv-ej-GQ0"/>
+                            <constraint firstItem="25L-qW-lmb" firstAttribute="centerX" secondItem="rYy-qt-DKI" secondAttribute="centerX" id="9K5-OQ-cvn"/>
+                            <constraint firstItem="8V0-nU-S7j" firstAttribute="centerX" secondItem="rYy-qt-DKI" secondAttribute="centerX" id="qhf-3c-6mw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answer1" destination="f3G-J9-Qbj" id="lyT-OW-GA1"/>
+                        <outlet property="answer2" destination="sSN-bd-U1m" id="18g-St-y1c"/>
+                        <outlet property="answer3" destination="jdh-1j-GLN" id="a4m-eG-6o5"/>
+                        <outlet property="answer4" destination="qym-IP-8zS" id="A9i-I4-qBd"/>
+                        <outlet property="ifCorrectLabel" destination="8V0-nU-S7j" id="Ylp-fr-7YJ"/>
+                        <outlet property="myBackgroundView" destination="HeQ-gk-kw2" id="zOc-Sc-bRa"/>
+                        <outlet property="nextButton" destination="Bij-Bx-JxU" id="kPV-sH-6Ny"/>
+                        <outlet property="questionTextView" destination="25L-qW-lmb" id="TCN-gD-fnZ"/>
+                        <outlet property="seeMyScoreButton" destination="xSz-P2-hvt" id="DEO-UU-Lwt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xY7-ua-OcX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="iaj-id-aHz">
+                    <connections>
+                        <action selector="tapGesture:" destination="KYX-V2-MUx" id="6af-1L-gpR"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="18" y="-223"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="G6Z-sS-Uaj">
+            <objects>
+                <viewController id="LZ4-zk-ryb" customClass="thirdViewController" customModule="Dance_Moms_Trivia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="osk-Z8-JAh"/>
+                        <viewControllerLayoutGuide type="bottom" id="gKu-Yc-cI2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8BY-46-sYP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2D-fg-vO5">
+                                <rect key="frame" x="20" y="277" width="560" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" red="0.040746752990000003" green="0.68887535720000004" blue="0.8237649937" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0EH-4q-uSE">
+                                <rect key="frame" x="321" y="388" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tpq-nw-vo6">
+                                <rect key="frame" x="188" y="388" width="254" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Take the quiz again">
+                                    <color key="titleColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="sAn-WP-lCr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Congrats! You finished the quiz!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bE2-HF-bOq">
+                                <rect key="frame" x="178" y="204" width="244" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bE2-HF-bOq" firstAttribute="centerX" secondItem="8BY-46-sYP" secondAttribute="centerX" id="3we-N3-lmD"/>
+                            <constraint firstItem="tpq-nw-vo6" firstAttribute="centerX" secondItem="8BY-46-sYP" secondAttribute="centerX" id="Q8W-s9-Nod"/>
+                            <constraint firstItem="L2D-fg-vO5" firstAttribute="centerX" secondItem="8BY-46-sYP" secondAttribute="centerX" id="rYa-A3-MC9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scoreLabel" destination="L2D-fg-vO5" id="bWT-7t-pkh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iND-gp-SSV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="821" y="-555"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ch5-Tc-vIz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P3V-3l-oNx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pfe-De-CBp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dPW-eQ-7Lw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HMk-JY-f26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1566" y="-223"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="d5e93cf079a2ab62db7c1107e17db187" width="736" height="490"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="sAn-WP-lCr"/>
+    </inferredMetricsTieBreakers>
+</document>

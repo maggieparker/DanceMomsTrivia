@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F02915E1C0E0C9900FAD6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02915D1C0E0C9900FAD6CB /* AppDelegate.swift */; };
+		3F0291601C0E0C9900FAD6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02915F1C0E0C9900FAD6CB /* ViewController.swift */; };
+		3F0291631C0E0C9900FAD6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0291611C0E0C9900FAD6CB /* Main.storyboard */; };
+		3F0291651C0E0C9900FAD6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0291641C0E0C9900FAD6CB /* Assets.xcassets */; };
+		3F0291681C0E0C9900FAD6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0291661C0E0C9900FAD6CB /* LaunchScreen.storyboard */; };
+		3F0291731C0E0C9A00FAD6CB /* Dance_Moms_TriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0291721C0E0C9A00FAD6CB /* Dance_Moms_TriviaTests.swift */; };
+		3F02917E1C0E0C9A00FAD6CB /* Dance_Moms_TriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02917D1C0E0C9A00FAD6CB /* Dance_Moms_TriviaUITests.swift */; };
+		3F6168E31C1A60970096DCD2 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6168E21C1A60970096DCD2 /* thirdViewController.swift */; };
+		3F7090201C149DB6004813B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70901F1C149DB6004813B5 /* SecondViewController.swift */; };
+		3F7090221C14AF4C004813B5 /* GridLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7090211C14AF4C004813B5 /* GridLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F02916F1C0E0C9A00FAD6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0291521C0E0C9900FAD6CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0291591C0E0C9900FAD6CB;
+			remoteInfo = "Dance Moms Trivia";
+		};
+		3F02917A1C0E0C9A00FAD6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0291521C0E0C9900FAD6CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0291591C0E0C9900FAD6CB;
+			remoteInfo = "Dance Moms Trivia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F02915A1C0E0C9900FAD6CB /* Dance Moms Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Moms Trivia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02915D1C0E0C9900FAD6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F02915F1C0E0C9900FAD6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0291621C0E0C9900FAD6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0291641C0E0C9900FAD6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0291671C0E0C9900FAD6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0291691C0E0C9900FAD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F02916E1C0E0C9A00FAD6CB /* Dance Moms TriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance Moms TriviaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0291721C0E0C9A00FAD6CB /* Dance_Moms_TriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_Moms_TriviaTests.swift; sourceTree = "<group>"; };
+		3F0291741C0E0C9A00FAD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0291791C0E0C9A00FAD6CB /* Dance Moms TriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance Moms TriviaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02917D1C0E0C9A00FAD6CB /* Dance_Moms_TriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_Moms_TriviaUITests.swift; sourceTree = "<group>"; };
+		3F02917F1C0E0C9A00FAD6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6168E21C1A60970096DCD2 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		3F70901F1C149DB6004813B5 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		3F7090211C14AF4C004813B5 /* GridLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0291571C0E0C9900FAD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02916B1C0E0C9A00FAD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0291761C0E0C9A00FAD6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0291511C0E0C9900FAD6CB = {
+			isa = PBXGroup;
+			children = (
+				3F02915C1C0E0C9900FAD6CB /* Dance Moms Trivia */,
+				3F0291711C0E0C9A00FAD6CB /* Dance Moms TriviaTests */,
+				3F02917C1C0E0C9A00FAD6CB /* Dance Moms TriviaUITests */,
+				3F02915B1C0E0C9900FAD6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F02915B1C0E0C9900FAD6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F02915A1C0E0C9900FAD6CB /* Dance Moms Trivia.app */,
+				3F02916E1C0E0C9A00FAD6CB /* Dance Moms TriviaTests.xctest */,
+				3F0291791C0E0C9A00FAD6CB /* Dance Moms TriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F02915C1C0E0C9900FAD6CB /* Dance Moms Trivia */ = {
+			isa = PBXGroup;
+			children = (
+				3F0291611C0E0C9900FAD6CB /* Main.storyboard */,
+				3F02915F1C0E0C9900FAD6CB /* ViewController.swift */,
+				3F70901F1C149DB6004813B5 /* SecondViewController.swift */,
+				3F6168E21C1A60970096DCD2 /* thirdViewController.swift */,
+				3F7090211C14AF4C004813B5 /* GridLabel.swift */,
+				3F02915D1C0E0C9900FAD6CB /* AppDelegate.swift */,
+				3F0291641C0E0C9900FAD6CB /* Assets.xcassets */,
+				3F0291661C0E0C9900FAD6CB /* LaunchScreen.storyboard */,
+				3F0291691C0E0C9900FAD6CB /* Info.plist */,
+			);
+			path = "Dance Moms Trivia";
+			sourceTree = "<group>";
+		};
+		3F0291711C0E0C9A00FAD6CB /* Dance Moms TriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0291721C0E0C9A00FAD6CB /* Dance_Moms_TriviaTests.swift */,
+				3F0291741C0E0C9A00FAD6CB /* Info.plist */,
+			);
+			path = "Dance Moms TriviaTests";
+			sourceTree = "<group>";
+		};
+		3F02917C1C0E0C9A00FAD6CB /* Dance Moms TriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F02917D1C0E0C9A00FAD6CB /* Dance_Moms_TriviaUITests.swift */,
+				3F02917F1C0E0C9A00FAD6CB /* Info.plist */,
+			);
+			path = "Dance Moms TriviaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0291591C0E0C9900FAD6CB /* Dance Moms Trivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0291821C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms Trivia" */;
+			buildPhases = (
+				3F0291561C0E0C9900FAD6CB /* Sources */,
+				3F0291571C0E0C9900FAD6CB /* Frameworks */,
+				3F0291581C0E0C9900FAD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dance Moms Trivia";
+			productName = "Dance Moms Trivia";
+			productReference = 3F02915A1C0E0C9900FAD6CB /* Dance Moms Trivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F02916D1C0E0C9A00FAD6CB /* Dance Moms TriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0291851C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms TriviaTests" */;
+			buildPhases = (
+				3F02916A1C0E0C9A00FAD6CB /* Sources */,
+				3F02916B1C0E0C9A00FAD6CB /* Frameworks */,
+				3F02916C1C0E0C9A00FAD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0291701C0E0C9A00FAD6CB /* PBXTargetDependency */,
+			);
+			name = "Dance Moms TriviaTests";
+			productName = "Dance Moms TriviaTests";
+			productReference = 3F02916E1C0E0C9A00FAD6CB /* Dance Moms TriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0291781C0E0C9A00FAD6CB /* Dance Moms TriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0291881C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms TriviaUITests" */;
+			buildPhases = (
+				3F0291751C0E0C9A00FAD6CB /* Sources */,
+				3F0291761C0E0C9A00FAD6CB /* Frameworks */,
+				3F0291771C0E0C9A00FAD6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F02917B1C0E0C9A00FAD6CB /* PBXTargetDependency */,
+			);
+			name = "Dance Moms TriviaUITests";
+			productName = "Dance Moms TriviaUITests";
+			productReference = 3F0291791C0E0C9A00FAD6CB /* Dance Moms TriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0291521C0E0C9900FAD6CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "🐶🐼🐧🐙🐳";
+				TargetAttributes = {
+					3F0291591C0E0C9900FAD6CB = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					3F02916D1C0E0C9A00FAD6CB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F0291591C0E0C9900FAD6CB;
+					};
+					3F0291781C0E0C9A00FAD6CB = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 3F0291591C0E0C9900FAD6CB;
+					};
+				};
+			};
+			buildConfigurationList = 3F0291551C0E0C9900FAD6CB /* Build configuration list for PBXProject "Dance Moms Trivia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0291511C0E0C9900FAD6CB;
+			productRefGroup = 3F02915B1C0E0C9900FAD6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0291591C0E0C9900FAD6CB /* Dance Moms Trivia */,
+				3F02916D1C0E0C9A00FAD6CB /* Dance Moms TriviaTests */,
+				3F0291781C0E0C9A00FAD6CB /* Dance Moms TriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0291581C0E0C9900FAD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0291681C0E0C9900FAD6CB /* LaunchScreen.storyboard in Resources */,
+				3F0291651C0E0C9900FAD6CB /* Assets.xcassets in Resources */,
+				3F0291631C0E0C9900FAD6CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02916C1C0E0C9A00FAD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0291771C0E0C9A00FAD6CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0291561C0E0C9900FAD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7090221C14AF4C004813B5 /* GridLabel.swift in Sources */,
+				3F7090201C149DB6004813B5 /* SecondViewController.swift in Sources */,
+				3F6168E31C1A60970096DCD2 /* thirdViewController.swift in Sources */,
+				3F0291601C0E0C9900FAD6CB /* ViewController.swift in Sources */,
+				3F02915E1C0E0C9900FAD6CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F02916A1C0E0C9A00FAD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0291731C0E0C9A00FAD6CB /* Dance_Moms_TriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0291751C0E0C9A00FAD6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F02917E1C0E0C9A00FAD6CB /* Dance_Moms_TriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0291701C0E0C9A00FAD6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0291591C0E0C9900FAD6CB /* Dance Moms Trivia */;
+			targetProxy = 3F02916F1C0E0C9A00FAD6CB /* PBXContainerItemProxy */;
+		};
+		3F02917B1C0E0C9A00FAD6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0291591C0E0C9900FAD6CB /* Dance Moms Trivia */;
+			targetProxy = 3F02917A1C0E0C9A00FAD6CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0291611C0E0C9900FAD6CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0291621C0E0C9900FAD6CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0291661C0E0C9900FAD6CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0291671C0E0C9900FAD6CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0291801C0E0C9A00FAD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0291811C0E0C9A00FAD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0291831C0E0C9A00FAD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dance Moms Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F0291841C0E0C9A00FAD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dance Moms Trivia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-Trivia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F0291861C0E0C9A00FAD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dance Moms TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-TriviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance Moms Trivia.app/Dance Moms Trivia";
+			};
+			name = Debug;
+		};
+		3F0291871C0E0C9A00FAD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dance Moms TriviaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-TriviaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance Moms Trivia.app/Dance Moms Trivia";
+			};
+			name = Release;
+		};
+		3F0291891C0E0C9A00FAD6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dance Moms TriviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-TriviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dance Moms Trivia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3F02918A1C0E0C9A00FAD6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dance Moms TriviaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Parker.Dance-Moms-TriviaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dance Moms Trivia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0291551C0E0C9900FAD6CB /* Build configuration list for PBXProject "Dance Moms Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0291801C0E0C9A00FAD6CB /* Debug */,
+				3F0291811C0E0C9A00FAD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0291821C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms Trivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0291831C0E0C9A00FAD6CB /* Debug */,
+				3F0291841C0E0C9A00FAD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0291851C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms TriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0291861C0E0C9A00FAD6CB /* Debug */,
+				3F0291871C0E0C9A00FAD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0291881C0E0C9A00FAD6CB /* Build configuration list for PBXNativeTarget "Dance Moms TriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0291891C0E0C9A00FAD6CB /* Debug */,
+				3F02918A1C0E0C9A00FAD6CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0291521C0E0C9900FAD6CB /* Project object */;
+}
